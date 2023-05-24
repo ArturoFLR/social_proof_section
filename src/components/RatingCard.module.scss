@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+.container {
+	display: flex;
+	background-color: $lightGrayishMagenta;
+	border-radius: 5px;
+	padding: 1rem;
+}
+
+.star {
+	margin-left: 0.5rem;
+	width: 15px;
+	height: 15px;
+}
+
+.text {
+	color: $veryDarkMagenta;
+	font-weight: 700;
+	font-family: $font;
+	margin-left: 2rem;
+}
