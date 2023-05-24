@@ -13,7 +13,9 @@ const RatingCard = ({text, stars}) => {
 	
 	return (
 		<div className={styles.container}>
-			{generateStars()}
+			<div className={styles.starsContainer}>
+				{generateStars()}
+			</div>
 			<p className={styles.text}>Rated 5 Stars in {text}</p>
 		</div>
 	);

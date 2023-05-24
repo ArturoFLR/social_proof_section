@@ -3,19 +3,39 @@
 .container {
 	display: flex;
 	background-color: $lightGrayishMagenta;
-	border-radius: 5px;
+	border-radius: 10px;
 	padding: 1rem;
 }
 
 .star {
 	margin-left: 0.5rem;
-	width: 15px;
-	height: 15px;
+	width: 18px;
+	height: 18px;
 }
 
 .text {
 	color: $veryDarkMagenta;
 	font-weight: 700;
-	font-family: $font;
+	font-size: 1.3rem;
 	margin-left: 2rem;
+}
+
+@media (max-width: 927px) {
+
+	.container {
+		flex-direction: column;
+		text-align: center;
+		padding: 1rem 0rem 1rem 0rem;
+		margin-bottom: 1rem;
+	}
+
+	.starsContainer {
+		margin: auto;
+		padding-bottom: 0.8rem;
+	}
+
+	.text {
+		font-size: 1.2rem;
+		margin-left: 0rem;
+	}
 }

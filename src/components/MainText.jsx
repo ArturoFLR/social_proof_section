@@ -2,7 +2,7 @@ import "../variables.scss";
 import styles from "./MainText.module.scss";
 import PropTypes from "prop-types";
 
-const MainText = (main, secondary) => {
+const MainText = ({main, secondary}) => {
 	return (
 		<div className={styles.container}>
 			<h1 className={styles.heading}>{main}</h1>
