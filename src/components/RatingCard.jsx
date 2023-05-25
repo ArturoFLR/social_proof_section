@@ -6,7 +6,7 @@ const RatingCard = ({text, stars}) => {
 	const generateStars = () => {
 		let result = [];
 		for (let index = 0; index < stars; index++) {
-			result = [...result, <img className={styles.star} src="/icon-star.svg" alt="Estrella" key={index}/>];
+			result = [...result, <img className={styles.star} src="icon-star.svg" alt="Estrella" key={index}/>];
 		}
 		return result;
 	};
